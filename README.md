@@ -19,8 +19,8 @@ As test data we create
 * 100 UserWallets
 
 We created 2 endpoints
-/Home/WakeUp that creates all the above grains in at advance
-/Home/Order that creates 10,000 orders by round robinning over the users and definitions (trying not to overload a specific grain).
+- /Home/WakeUp that creates all the above grains in at advance
+- /Home/Order that creates 10,000 orders (or you can override it with the orders query param) by round robinning over the users and definitions (trying not to overload a specific grain).
 
 
 In order to get it to run, just replace "<your token>" in Program.cs
