@@ -21,3 +21,17 @@ As test data we create
 We created 2 endpoints
 /Home/WakeUp that creates all the above grains in at advance
 /Home/Order that creates 10,000 orders by round robinning over the users and definitions (trying not to overload a specific grain).
+
+
+In order to get it to run, just replace "<your token>" in Program.cs
+```
+		.AddAzureTableGrainStorage(
+			name: "OrleansProvider",
+			configureOptions: options =>
+			{
+				options.UseJson = true;
+				options.ConfigureTableServiceClient(
+					"<your token>");
+			});
+```
+			
