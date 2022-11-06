@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32708.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansTest", "OrleansTest\OrleansTest.csproj", "{F6A02267-77BA-4F7E-931E-DE7778FC7ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans", "Orleans\Orleans.csproj", "{14A50BA3-6658-4A7F-90B6-8337CE603097}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A02267-77BA-4F7E-931E-DE7778FC7ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A02267-77BA-4F7E-931E-DE7778FC7ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A02267-77BA-4F7E-931E-DE7778FC7ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A02267-77BA-4F7E-931E-DE7778FC7ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A50BA3-6658-4A7F-90B6-8337CE603097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A50BA3-6658-4A7F-90B6-8337CE603097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A50BA3-6658-4A7F-90B6-8337CE603097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A50BA3-6658-4A7F-90B6-8337CE603097}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A63B9C00-B871-4685-8163-AFF5C8517335}
+	EndGlobalSection
+EndGlobal
